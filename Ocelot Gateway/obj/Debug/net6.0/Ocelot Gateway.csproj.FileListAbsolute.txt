@@ -1,0 +1,42 @@
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\appsettings.json
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\ocelot.json
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Ocelot Gateway.exe
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Ocelot Gateway.deps.json
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Ocelot Gateway.runtimeconfig.json
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Ocelot Gateway.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Ocelot Gateway.pdb
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\IPAddressRange.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Ocelot.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\Ocelot Gateway.csproj.AssemblyReference.cache
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\Ocelot Gateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\Ocelot Gateway.AssemblyInfoInputs.cache
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\Ocelot Gateway.AssemblyInfo.cs
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\Ocelot Gateway.csproj.CoreCompileInputs.cache
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\Ocelot Gateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\Ocelot Gateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\staticwebassets\msbuild.Ocelot Gateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\staticwebassets\msbuild.build.Ocelot Gateway.props
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Ocelot Gateway.props
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Ocelot Gateway.props
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\scopedcss\bundle\Ocelot Gateway.styles.css
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\Ocelot Gateway.csproj.CopyComplete
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\Ocelot Gateway.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\refint\Ocelot Gateway.dll
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\Ocelot Gateway.pdb
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\Ocelot Gateway.genruntimeconfig.cache
+C:\Users\harshitojha\source\repos\User Service\Ocelot Gateway\obj\Debug\net6.0\ref\Ocelot Gateway.dll

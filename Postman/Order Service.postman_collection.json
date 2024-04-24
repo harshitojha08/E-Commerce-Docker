@@ -1,0 +1,324 @@
+{
+	"info": {
+		"_postman_id": "f26eaf39-a30b-4e78-921e-5c0cab6c2933",
+		"name": "Order Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32391766"
+	},
+	"item": [
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "Order",
+					"item": [
+						{
+							"name": "place",
+							"item": [
+								{
+									"name": "/api/Order/place",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "[\n  {\n    \"productId\": \"<integer>\",\n    \"quantity\": \"<integer>\"\n  },\n  {\n    \"productId\": \"<integer>\",\n    \"quantity\": \"<integer>\"\n  }\n]",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/Order/place",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Order",
+												"place"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "[\n  {\n    \"productId\": \"<integer>\",\n    \"quantity\": \"<integer>\"\n  },\n  {\n    \"productId\": \"<integer>\",\n    \"quantity\": \"<integer>\"\n  }\n]",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/Order/place",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Order",
+														"place"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "{orderId}",
+							"item": [
+								{
+									"name": "Get Order By Id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Order/:orderId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Order",
+												":orderId"
+											],
+											"variable": [
+												{
+													"key": "orderId",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/api/Order/:orderId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Order",
+														":orderId"
+													],
+													"variable": [
+														{
+															"key": "orderId"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/api/Order/:orderId",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Order/:orderId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Order",
+												":orderId"
+											],
+											"variable": [
+												{
+													"key": "orderId",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/api/Order/:orderId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Order",
+														":orderId"
+													],
+													"variable": [
+														{
+															"key": "orderId"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "/api/Order",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/Order",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Order"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Order",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Order"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "WeatherForecast",
+			"item": [
+				{
+					"name": "Get Weather Forecast",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/WeatherForecast",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"WeatherForecast"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/WeatherForecast",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"WeatherForecast"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "[\n  {\n    \"date\": \"<dateTime>\",\n    \"temperatureC\": \"<integer>\",\n    \"temperatureF\": \"<integer>\",\n    \"summary\": \"<string>\"\n  },\n  {\n    \"date\": \"<dateTime>\",\n    \"temperatureC\": \"<integer>\",\n    \"temperatureF\": \"<integer>\",\n    \"summary\": \"<string>\"\n  }\n]"
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}

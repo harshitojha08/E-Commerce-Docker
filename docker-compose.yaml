@@ -1,0 +1,90 @@
+version: '3.4'
+ 
+services:
+
+  eureka-service:
+    image: steeltoeoss/eureka-server
+    ports:
+      - "8999:8761"
+   
+    networks:
+      - its_network
+     
+  cartservice:
+    image: harshitojha08/microservices:cart-service
+    ports:
+      - "7180:80"
+   
+    depends_on:
+      - eureka-service
+     
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+     
+   
+    networks:
+      - its_network
+ 
+  userservice:
+    image: harshitojha08/microservices:user-service
+    ports:
+      - "7181:80"
+   
+    depends_on:
+      - eureka-service
+     
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+     
+   
+    networks:
+      - its_network
+
+  productservice:
+    image: harshitojha08/microservices:product-service
+    ports:
+      - "7182:80"
+   
+    depends_on:
+      - eureka-service
+     
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+     
+   
+    networks:
+      - its_network    
+
+  orderservice:
+    image: harshitojha08/microservices:order-service
+    ports:
+      - "7183:80"
+   
+    depends_on:
+      - eureka-service
+     
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+     
+   
+    networks:
+      - its_network  
+
+  productdetails:
+    image: harshitojha08/microservices:productDetails-service
+    ports:
+      - "7184:80"
+   
+    depends_on:
+      - eureka-service
+     
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+     
+   
+    networks:
+      - its_network       
+      
+networks:
+  its_network:
+    driver: bridge
